@@ -1,0 +1,12 @@
+.env
+.vscode
+
+*.pyc
+.DS_Store
+__ppycache__/
+
+venv/
+.streamlit/
+
+
+dist/
