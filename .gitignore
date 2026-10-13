@@ -1,12 +1,13 @@
-.env
-.vscode
 
+.env
+.env.*
+!.env.example
+
+.vscode/
+venv/
+__pycache__/
 *.pyc
 .DS_Store
-__ppycache__/
-
-venv/
-.streamlit/
-
-
 dist/
+
+.streamlit/secrets.toml

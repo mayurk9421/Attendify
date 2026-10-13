@@ -1,22 +1,14 @@
-streamlit
-#utilities
-numpy  #arrsy used
-pandas #tabluer operation
 
-#face recognization modules
-scikit-learn #svm structure(use din classification and regression)
-dlib-bin #gives structure algorithm for face recognization
+streamlit
+numpy
+pandas
+scikit-learn
+dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
 setuptools
-
-#database
 supabase
 bcrypt
-
-segno  #QR CODE
-pillow  #IMAGE RELATED DEALING LIBRARY
-
-
-
-librosa  
-resemblyzer  
+segno
+pillow
+librosa
+resemblyzer

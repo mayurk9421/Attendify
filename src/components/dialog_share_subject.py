@@ -6,7 +6,7 @@ import io
 
 @st.dialog("Create New Subject")
 def share_subject_dialog(subject_name, subject_code):
-    app_domain = "attendify-main.streamlit.app"
+    app_domain = "attendify-main1.streamlit.app"
     join_url = f"{app_domain}/?join-code={subject_code}"
  
     st.header("Scan to join")
