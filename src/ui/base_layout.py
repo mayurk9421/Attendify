@@ -174,6 +174,39 @@ def style_base_layout():
                 }
 
                 
+                /* Keep text readable on the lavender dashboard */
+                .stApp {
+                color: #292344 !important;
+                }
+
+                .stApp h1,
+                .stApp h2,
+                .stApp h3,
+                .stApp h4,
+                .stApp p,
+                .stApp label,
+                .stApp [data-testid="stMarkdownContainer"] {
+                color: #292344;
+                }
+
+                /* Make form inputs consistent */
+                .stApp input,
+                .stApp textarea,
+                .stApp select {
+                color: #292344;
+                }
+
+                /* Consistent button appearance */
+                .stApp button {
+                border-radius: 10px !important;
+                }
+
+                /* Avoid unwanted black backgrounds on normal content */
+                [data-testid="stVerticalBlock"],
+                [data-testid="stHorizontalBlock"] {
+                background-color: transparent;
+                }
+
                      </style>
                 """
                 ,unsafe_allow_html=True)
