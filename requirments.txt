@@ -16,3 +16,7 @@ segno  #QR CODE
 pillow  #IMAGE RELATED DEALING LIBRARY
 
 streamlit
+
+
+librosa  
+resemblyzer  
