@@ -137,7 +137,7 @@ def teacher_dashboard():
         with o5:
             if low_attendance:
                 st.markdown('<div class="low-attendance-warning">',unsafe_allow_html=True)
-                if st.button(f"⚠️ {len(low_attendance)} Students Below 75% ›",key="low_attendance_open",type="primary",width="stretch",use_container_width=True):
+                if st.button(f"⚠️ {len(low_attendance)} Students Below 75% ›",key="low_attendance_open",type="primary",width="stretch"):
                     low_attendance_dialog(low_attendance)
                 st.markdown('</div>',unsafe_allow_html=True)
             else:
