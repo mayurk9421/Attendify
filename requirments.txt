@@ -1,3 +1,4 @@
+streamlit
 #utilities
 numpy  #arrsy used
 pandas #tabluer operation
@@ -15,7 +16,6 @@ bcrypt
 segno  #QR CODE
 pillow  #IMAGE RELATED DEALING LIBRARY
 
-streamlit
 
 
 librosa  
